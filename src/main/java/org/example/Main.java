@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        int [] array = {2, 1, 2, 3, 4, 0, 0};
+        int[] array = {2, 1, 2, 3, 4, 0, 0};
 
         // Task1
         System.out.println("Четные элементы массива " + Arrays.toString(array) + ": " + Task1.countEvens(array));
